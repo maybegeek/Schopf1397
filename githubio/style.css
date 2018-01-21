@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Schopf1397-Web';
+  src: url('../Webfont/Schopf1397-Web.eot');
+  src: url('../Webfont/Schopf1397-Web.eot?#iefix') format('embedded-opentype'),
+    url('../Webfont/Schopf1397-Web.woff2') format('woff2'),
+    url('../Webfont/Schopf1397-Web.woff') format('woff'),
+    url('../Webfont/Schopf1397-Web.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p.glyph {
+  font-family: 'Schopf1397-Web';
+}
