@@ -31,7 +31,7 @@ body {
 header,
 main,
 footer {
-  padding: 8px;
+  padding: 32px;
 }
 
 main {
@@ -49,6 +49,9 @@ main {
   background-color: white;
 }
 
+main .item.start {
+  grid-column-start: 1;
+}
 
 .glyph {
   text-align: center;
