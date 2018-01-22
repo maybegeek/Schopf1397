@@ -56,7 +56,8 @@ main .item.start {
 
 .glyph {
   text-align: center;
-  font: 180px/0.9 "Schopf1397-Web";
+  font: 140px/0.9 "Schopf1397-Web";
+  font-size: calc(140px + 3vw);
   width: 100%;
   padding: 14% 0 2% 0;
   margin: 0;
