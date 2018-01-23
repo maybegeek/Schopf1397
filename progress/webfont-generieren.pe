@@ -1,0 +1,11 @@
+#!/usr/bin/fontforge
+i=1
+while ( i<$argc )
+  Open($argv[i])
+  Generate('Webfont/' + $argv[i]:r + "-Web.eot")
+  Generate('Webfont/' + $argv[i]:r + "-Web.ttf")
+  Generate('Webfont/' + $argv[i]:r + "-Web.woff")
+  Generate('Webfont/' + $argv[i]:r + "-Web.woff2")
+  Generate('Webfont/' + $argv[i]:r + "-Web.svg")
+  i = i+1
+endloop
