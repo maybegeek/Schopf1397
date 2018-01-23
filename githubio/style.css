@@ -58,7 +58,6 @@ header figure {
 
 header figure img {
   width: 100%;
-  display: block;
 }
 
 header figure figcaption {
@@ -68,7 +67,7 @@ header figure figcaption {
 
 main {
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
   grid-gap: 24px;
 }
 
@@ -93,8 +92,8 @@ main .item.start {
 
 .glyph {
   text-align: center;
-  font: 140px/0.9 "Schopf1397-Web";
-  font-size: calc(140px + 3vw);
+  font: 100px/0.9 "Schopf1397-Web";
+  font-size: calc(100px + 3vw);
   width: 100%;
   padding: 14% 0 2% 0;
   margin: 0;
