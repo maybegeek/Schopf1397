@@ -20,7 +20,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   background-color: #ecf0f1;
-  color: #212121;
+  color: #34495e;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -47,6 +47,14 @@ header {
     grid-template-columns: 1fr;
     font-size: 1.2em;
   }
+}
+
+header h1 {
+  color: #a83324;
+}
+
+header h1 span.schopf {
+  font: 90px/0.9 "Schopf1397-Web";
 }
 
 header figure {

@@ -1,3 +1,5 @@
 /.git export-ignore
-/.progress export-ignore
+/progress export-ignore
+/githubio export-ignore
+/index.htm export-ignore
 /.gitattributes export-ignore
