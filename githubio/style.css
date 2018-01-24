@@ -126,6 +126,26 @@ main .item.start {
   color: #a83324;
 }
 
+.todo {
+  background-color: #a83324;
+  color: white;
+}
+
+.todo .glyph {
+  font: initial;
+  font-size: initial;
+  width: initial;
+  padding: 0;
+}
+
+.todo .glyph img {
+  width: 100%;
+}
+
+.todo .info {
+  border: 0;
+}
+
 .info {
   padding: 24px;
   border-top: 1px solid rgba(0,0,0,0.1);
